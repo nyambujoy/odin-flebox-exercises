@@ -1,0 +1,22 @@
+html ,body{
+    box-sizing: border-box;
+}
+
+.container{
+    height: 200px;
+    width: 300px;
+    background-color:lightskyblue ;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 80px;
+    width: 50px;
+    background-color: pink;
+    border: 2px solid red;
+    padding: 20px;
+
+}

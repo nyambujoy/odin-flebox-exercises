@@ -1,0 +1,40 @@
+html ,body{
+    box-sizing: border-box;
+}
+
+.container{
+   font-family: monospace;
+    background-color: papayawhip;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+  }
+
+  a{
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    gap: 8px;
+
+}
+
